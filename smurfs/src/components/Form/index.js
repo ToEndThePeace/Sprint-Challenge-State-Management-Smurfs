@@ -34,9 +34,9 @@ const Form = (props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" name="name" value={name} onChange={updateInput} />
-      <input type="text" name="age" value={age} onChange={updateInput} />
-      <input type="text" name="height" value={height} onChange={updateInput} />
+      <input type="text" name="name" placeholder="Name..." value={name} onChange={updateInput} />
+      <input type="text" name="age" placeholder="Age..." value={age} onChange={updateInput} />
+      <input type="text" name="height" placeholder="Height..." value={height} onChange={updateInput} />
       <input type="submit" value="Add Smurf" />
     </form>
   );
